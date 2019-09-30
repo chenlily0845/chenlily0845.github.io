@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <html>
 <body>
 <h1>我叫<span id="myname"></h1>
@@ -25,23 +24,3 @@ $("btn").click(function(){
 </script>
 </body>
 </html>
-=======
-<html>
-<body>
-<h1>我叫<span id="myname"></h1>
-<p>我的学号是<span id="mynumber"></span>
-</p>
-    <img id="logo" src="1.jpg" style="border-radius: 10px 20px 40px 80px">
-    <img src="matrix.png">
-<script src="jquery-3.4.1.js"></script>
-<script>
-$(function(){
-    $.get("./data.json",function(result){
-        $("#myname").text(result.myname);
-        $("#mynumber").text(result.mynumber);
-    });
-})
-</script>
-</body>
-</html>
->>>>>>> fcd3bf617ef82efd5339341fe5887eedac8efcb9
